@@ -1,0 +1,56 @@
+/*GLOBAL*/
+
+.container{
+  width: 80%;
+}
+
+.user-header-icon{
+  color: #b6b6b6;
+  font-size: 36px;
+}
+
+.user-header-icon:hover{
+  color: #ffffff;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  justify-content: space-between;
+}
+
+#sponsora-logo{
+  height: 50px;
+  width: 50px;
+}
+
+#homepage-header{
+  letter-spacing: 1.5px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#first-section{
+  height: 100vh;
+  background-image: url('../../assets/network.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#first-section h1{
+  color: #ffffff;
+}
